@@ -1,0 +1,58 @@
+webpackHotUpdate("main",{
+
+/***/ "./src/components/Header/styles.js":
+/*!*****************************************!*\
+  !*** ./src/components/Header/styles.js ***!
+  \*****************************************/
+/*! exports provided: Navigation */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Navigation", function() { return Navigation; });
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+
+const Navigation = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].nav`
+   display: flex;
+   justify-content: space-around;
+   width: 70%;
+   margin: 0 auto;
+   margin-top: 4rem;
+   margin-left: 21rem;
+
+   ul {
+       display: flex;
+       justify-content: space-between;
+       width: 30rem;
+   }
+
+   li {
+       list-style: none;
+       font-size: 1.3rem;
+       color: black;   
+   }
+
+   h3 {
+       margin-right: 35rem
+   }
+
+   @media(max-width: 768px) {
+
+       h3 {
+           margin-left: 25rem;
+       }
+
+       ul {
+           margin-right: 15rem;
+       }
+
+       li {
+           padding-left: 20px;
+       }
+   }
+`;
+
+/***/ })
+
+})
+//# sourceMappingURL=main.d12eec9138f8aeec1b61.hot-update.js.map
