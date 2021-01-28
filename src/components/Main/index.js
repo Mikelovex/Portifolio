@@ -15,7 +15,7 @@ function Main() {
                 <Box>
                     <h3>Desenvolvedor Júnior</h3>
                     <h1>Michael Gonçalves</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti error, voluptate deserunt molestias magni ad consequuntur consequatur tenetur. Quasi ab repudiandae debitis. Quia cumque ratione labore recusandae quidem voluptatibus error.</p>
+                    <p>Estou em busca de aprender novas tecnologias e melhorar as que eu ja conheço.</p>
                     <a href="https://drive.google.com/file/d/1qW6adB-BQ4h53fV2Je5oVCvMYtrFBtTv/view?usp=sharing" target="blank"><button>Baixar Curriculo</button></a>
                 </Box>
             </Description>
