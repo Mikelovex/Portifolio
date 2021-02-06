@@ -3,7 +3,7 @@ import React from 'react'
 import {AiFillHtml5} from 'react-icons/ai'
 import {DiCss3Full, DiNodejs} from 'react-icons/di'
 import {SiJavascript, SiMysql, SiPostgresql} from 'react-icons/si'
-import {FaReact} from 'react-icons/fa'
+import {FaReact, FaPython} from 'react-icons/fa'
 
 import {Container, Icons, Icon} from './styles'
 
@@ -32,6 +32,10 @@ function Skills() {
                <Icon>
                     <span>NodeJS</span>
                     <DiNodejs size={60} color="#20bf6b"/>
+               </Icon>
+               <Icon>
+                    <span>Python</span>
+                    <FaPython size={60} color="#227093"/>
                </Icon>
                <Icon>
                     <span>MySQL</span>

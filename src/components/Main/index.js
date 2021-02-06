@@ -1,14 +1,14 @@
 import React from 'react'
 
-import {Container, Description, Image, Box } from './Styles'
+import { Container, Description, Image, Box } from './Styles'
 
 import backgroundImage from '../../assets/coding.svg'
 
 function Main() {
 
-  
 
-    return(
+
+    return (
         <Container id="main">
 
             <Description>
@@ -20,7 +20,7 @@ function Main() {
                 </Box>
             </Description>
             <Image>
-                <img src={backgroundImage} alt="computer"/>
+                <img src={backgroundImage} alt="computer" />
             </Image>
 
         </Container>
