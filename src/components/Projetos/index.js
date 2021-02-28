@@ -3,7 +3,7 @@ import React from 'react'
 import {Container, Cards, Card} from './styles'
 
 import hotelImg from '../../assets/hotel.png'
-import beatImg from '../../assets/beat.png'
+import gamesImg from '../../assets/games.png'
 import pokemonImg from '../../assets/pokemon.png'
 import gitfinderImg from '../../assets/ginfinder.png'
 
@@ -19,10 +19,10 @@ function Projetos() {
                     <img src={hotelImg} alt="ecoleta"/>
                     <p>Um site para um hotel fictício</p>
                </Card>
-               <Card href="https://beat-maker.vercel.app/" target="blank">
-                    <h2>Beat Maker</h2>
-                    <img src={beatImg} alt="beat-maker"/>
-                    <p>aplicação para fazer beats para musicas</p>
+               <Card href="https://games-henna.vercel.app/" target="blank">
+                    <h2>Layout Games</h2>
+                    <img src={gamesImg} alt="beat-maker"/>
+                    <p>Layout de um site de league of legends</p>
                </Card>
                <Card href="https://pokemon-two-phi.vercel.app/" target="blank">
                     <h2>Pokedex</h2>
